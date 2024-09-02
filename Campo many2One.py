@@ -18,7 +18,7 @@ class NombreClase(models.Model):
   #creamos un campo para mostrar las ventas
   country_id = fields.Many2one('sale.order', string='Ventas')
 
-  Y así sucesivamente con todos los campos Many2One que quieras crear
+  #Y así sucesivamente con todos los campos Many2One que quieras crear
 
 
 
