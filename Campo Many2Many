@@ -6,7 +6,7 @@ from odoo.exceptions import UserError
 class NombreClase(models.Model):
   _name='nombre.modelo'  #asi declaras el nombre de tu modelo, que será el nombre de la tabla en la base de datos
 
-  #puedes declarar todos los campos Many2One que necesites
+  #puedes declarar todos los campos Many2many que necesites
   #Un campo many2Many asocia los valores de un modelo existente, con los valores del modelo que estás creando
 
   #Creamos un campo para que se puedan selecionar varios paises desde el modelo nuevo
@@ -36,4 +36,4 @@ class NombreClase(models.Model):
           string='Ventas'
       )
 
-  #Y así sucesivamente con todos los campos Many2One que quieras crear
+  #Y así sucesivamente con todos los campos Many2many que quieras crear
